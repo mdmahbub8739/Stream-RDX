@@ -497,12 +497,4 @@
       idleTimer = setTimeout(() => nav.classList.remove('an-nav-hidden'), 1200);
       ticking = false;
     }
-    window.addEventListener('scroll', () => {
-      if (!ticking) { requestAnimationFrame(update); ticking = true; }
-    }, { passive: true });
-    update();
-  }
-  initTopnavAutoHide();
-
-  global.AniListModule = { renderPage };
-})(window);
+  
