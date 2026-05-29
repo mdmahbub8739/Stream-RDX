@@ -506,3 +506,14 @@
 
   global.AniListModule = { renderPage };
 })(window);
+/* OmniFlix ব্র্যান্ডিং বা হেডার সেকশন */
+.header, .nav-container, .branding-area {
+    position: sticky; /* অথবা fixed */
+    z-index: 9999 !important; /* মানটি অনেক বাড়িয়ে দেওয়া হলো যাতে সবার উপরে থাকে */
+}
+
+/* প্লেয়ার বা PiP টাইটেল উইন্ডো */
+.player-container, #pip-player, .video-title-box {
+    position: relative; 
+    z-index: 1000; /* হেডারের মানের চেয়ে এটি কম রাখুন */
+}
