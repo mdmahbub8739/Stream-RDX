@@ -155,12 +155,3 @@
   -webkit-backdrop-filter: blur(14px) saturate(1.4);
   border-bottom-color: rgba(255,255,255,0.06) !important;
 }
-.topnav.an-nav-hidden { transform: translateY(-50%); }
-.topnav,
-.topnav.an-nav-solid {
-  background: transparent !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  border-bottom-color: transparent !important;
-}
-.topnav.an-nav-hidden { transform: none !important; }
